@@ -12,11 +12,5 @@ import { Jumbotron, Button } from "sveltestrap";
         <p>
             <a href="https://github.com/enrike7lg">Enrique Luque García</a>
         </p>
-        <p>
-            Para más información, haz click aquí:
-        </p>
-        <p class="lead">
-            <a href="#/info"><Button color="dark">Sobre Nosotros</Button>
-        </p>
       </Jumbotron>
 </main>
