@@ -10,7 +10,7 @@
   //Imports para analytics
 	import AnalyticsSchool from "./analytics/school/schoolAnalytics.svelte";
 
-	import {Collapse,Jumbotron,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink,Dropdown,UncontrolledDropdown,DropdownToggle,DropdownMenu,DropdownItem} from 'sveltestrap';
+	import {Jumbotron,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink,Dropdown,UncontrolledDropdown,DropdownToggle,DropdownMenu,DropdownItem} from 'sveltestrap';
   
     let isOpen=false;
     
@@ -31,9 +31,6 @@
         <Navbar color="dark" dark expand = "md" >
             <NavbarBrand href="#/">SOS2021-24</NavbarBrand>
             <Nav navbar >
-              <NavItem>
-                <NavLink href="#/info">Info</NavLink>
-              </NavItem>
               <NavItem>
                 <NavLink href="#/children-out-school">Abandono escolar</NavLink>
               </NavItem>
