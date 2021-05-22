@@ -1,7 +1,6 @@
 <script>
 	import Router from 'svelte-spa-router';
 	import NotFound from './NotFound.svelte' ;  
-	import Home from './Home.svelte';
   import Inicio from './Inicio.svelte'
 
   //Imports para APIs
@@ -17,7 +16,6 @@
     
     const routes = {
       "/": Inicio,
-		  "/info":Home,
       "/children-out-school": SchoolAPI,
       "/children-out-school/:country/:year":EditSchool,
       "/analytics/children-out-school": AnalyticsSchool,
