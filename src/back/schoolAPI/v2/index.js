@@ -1,5 +1,5 @@
 module.exports.init = (app) => {
-    var BASE_CHILDREN_OUT_SCHOOL_API_PATH = "/api/v2"
+    var BASE_CHILDREN_OUT_SCHOOL_API_PATH = "/api/v2/children-out-school"
     var Datastore = require("nedb");
     var path = require('path');
 
